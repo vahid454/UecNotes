@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uec.notes.uecnotes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--         <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       -->
+        <activity
+
+            android:name=".SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".ComputerScienceActivity" />
+        <activity android:name=".ECActivity" />
+        <activity android:name=".ElectricalActivity" />
+        <activity android:name=".MechanicalActivity" />
+        <activity android:name=".CivilActivity" />
+        <activity android:name=".ChemicalActivity" />
+        <activity android:name=".TeacherLoginActivity" />
+        <activity android:name=".TeacherRegisterActivity" />
+        <activity android:name=".CS1" />
+        <activity android:name=".TeacherDashboardActivity" />
+        <activity android:name=".TeacherMainDashboard" />
+        <activity android:name=".CS2" />
+        <activity android:name=".CS3" />
+        <activity android:name=".CS4" />
+        <activity android:name=".CS5" />
+        <activity android:name=".CS6" />
+        <activity android:name=".CS7" />
+        <activity android:name=".CS8" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".CS1Subject" />
+        <activity android:name=".CS1Physics" />
+        <activity android:name=".CS1BME" />
+        <activity android:name=".CS1M1" />
+        <activity android:name=".CS1BEE" />
+        <activity android:name=".CS1CLang" />
+        <activity android:name=".CS2Subject" />
+        <activity android:name=".CS2Civil" />
+        <activity android:name=".CS2Chemistry" />
+        <activity android:name=".CS2M2" />
+        <activity android:name=".CS2ED" />
+        <activity android:name=".CS2CPP" />
+        <activity android:name=".CS3Subject" />
+        <activity android:name=".CS3Java" />
+        <activity android:name=".CS3OS" />
+        <activity android:name=".CS3M3" />
+        <activity android:name=".CS3ECNT" />
+        <activity android:name=".CS3DS" />
+        <activity android:name=".CS4Subject" />
+        <activity android:name=".CS4DE" />
+        <activity android:name=".CS4DS" />
+        <activity android:name=".CS4CSO" />
+        <activity android:name=".CS4ADC" />
+        <activity android:name=".CS4ADA" />
+        <activity android:name=".CS5Subject" />
+        <activity android:name=".CS5SE" />
+        <activity android:name=".CS5DC" />
+        <activity android:name=".CS5DBMS" />
+        <activity android:name=".CS5MI" />
+        <activity android:name=".CS5TOC" />
+        <activity android:name=".CS6Subject" />
+        <activity android:name=".CS6CN" />
+        <activity android:name=".CS6CGM" />
+        <activity android:name=".CS6ACAP" />
+        <activity android:name=".CS6DS" />
+        <activity android:name=".CS6IOT" />
+        <activity android:name=".CS7Subject" />
+        <activity android:name=".CS7CD" />
+        <activity android:name=".CS7NW" />
+        <activity android:name=".CS7ISM" />
+        <activity android:name=".CS7SM" />
+        <activity android:name=".CS7NM" />
+        <activity android:name=".CS8Subject" />
+        <activity android:name=".CS8WE" />
+        <activity android:name=".CS8SC" />
+        <activity android:name=".CS8WN" />
+        <activity android:name=".CS8MT" />
+
+    </application>
+
+</manifest>
