@@ -1,0 +1,110 @@
+<resources>
+    <string-array name="sems">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+
+
+    <string-array name="CS1Subjects">
+        <item>Physics</item>
+        <item>Basic Mechanical Engg.</item>
+        <item>Mathematics-I</item>
+        <item>Basic Electrical Engg.</item>
+        <item>C Language</item>
+
+    </string-array>
+
+    <string-array name="CS2Subjects">
+        <item>Civil Engineering</item>
+        <item>Chemistry</item>
+        <item>Mathematics-II</item>
+        <item>Engg. Design</item>
+        <item>C++ Language</item>
+
+    </string-array>
+
+    <string-array name="CS3Subjects">
+        <item>Operating System</item>
+        <item>Data Structure</item>
+        <item>Mathematics-III</item>
+        <item>Electronics Circuits and Network Theory</item>
+        <item>OOP using Java</item>
+
+    </string-array>
+
+    <string-array name="CS4Subjects">
+        <item>Digital Electronics</item>
+        <item>Discrete Structure</item>
+        <item>Computer System Organization</item>
+        <item>Analog and Digital Communication</item>
+        <item>Analysis and Design of Algorithm</item>
+
+    </string-array>
+
+    <string-array name="CS5Subjects">
+        <item>Software Engineering</item>
+        <item>Data Communication</item>
+        <item>Theory of Computation</item>
+        <item>Database Management System</item>
+        <item>Microprocessor and Interfacing</item>
+
+    </string-array>
+
+    <string-array name="CS6Subjects">
+        <item>Computer Network</item>
+        <item>Computer Graphics and Multimedia</item>
+        <item>Advance Computer Architecture and Pheripherals</item>
+        <item>Distributed System</item>
+        <item>Internet of Things</item>
+
+    </string-array>
+
+    <string-array name="CS7Subjects">
+        <item>Compiler Design</item>
+        <item>Network and web Security</item>
+        <item>Information Storage and Management</item>
+        <item>Simulation and Modelling</item>
+        <item>Network Management</item>
+
+    </string-array>
+
+    <string-array name="CS8Subjects">
+        <item>Web Engineering</item>
+        <item>Soft Computing</item>
+        <item>Wireless Network</item>
+        <item>MANET</item>
+
+    </string-array>
+
+
+    <string name="app_name">Uec Notes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Uec Notes</string>
+    <string name="nav_header_subtitle">Ujjain Engineering College , Ujjain</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up">New User ? Registration</string>
+    <string name="action_forgot">Forgot Password</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="techtext">Login as Teacher</string>
+    <string name="no_files">NO RECORDS FOUND</string>
+</resources>
